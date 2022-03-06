@@ -1,0 +1,39 @@
+/*********************************************Tag Selectors*******************************************/
+
+h1{
+    color:red;
+}
+
+/*
+img element is used before using css selector class which provides different styles to different class
+img{
+    background-color: blue;
+}
+
+*/
+
+/************************************************Class Selector*******************************************/
+
+.bacon{
+    background-color: green;
+}
+
+.broccoli{
+    background-color: red;
+}
+.circular{ /* we can have two classes for a particular tag but not ids */
+    border-radius: 100%;
+}
+
+/*********************************************Id Selector*******************************************/
+
+#heading{
+    color:blue; /* we can clearly see here that blue heading overrides red becuase id selector is more specific than tag */
+}
+
+/*********************************************Pseudoclasses*******************************************/
+
+
+img:hover{
+     background-color: gold;
+}
