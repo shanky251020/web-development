@@ -1,0 +1,15 @@
+p{   /*This Element is by default block to shift all other text to first line use inline */
+background-color: red;
+  display:inline;  /*Now it becomes the inline element */
+ /* width:300px;   This line again doesnot change the width of element when changed to inline but for that purpose inline-block is there
+  */
+}
+span{
+background-color: blue;
+ /* width:200px;  we can see this line cannot change the width of span where it changes the width of block but it doesnnot allow to shift span element to block <p> tag level */
+}
+
+.second{
+    display:inline-block;  /* now it changes width */
+    width:200px;
+}
