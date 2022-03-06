@@ -1,0 +1,42 @@
+/* body has a default margin to override this we have to again write */
+
+body{
+    margin:0; /*It overrides the previous browser default body style */
+}
+h1{
+    margin-top: 0;   /* Because of this h1 goes to top */
+}   
+div{
+    background-color: #E4F9F5;
+}
+.top-container{
+    height: 200px;
+    width: 200px;
+    border:solid 10px;
+    padding:20px;
+}
+ /* By these examples we can understand boxmodel */
+.middle-container{
+    height: 200px;
+    width: 200px;
+    border:solid 20px;
+    background-color: red;
+    margin-left: 260px;
+}
+
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    border:solid 10px;
+    background-color: blue;
+    margin-left: 500px;
+}
+
+.bottom-container:hover{
+    height: 200px;
+    width: 200px;
+    border:solid 20px;
+    background-color: red;
+    margin-left: 260px;
+}
